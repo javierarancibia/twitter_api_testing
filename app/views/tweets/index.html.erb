@@ -1,22 +1,20 @@
-<p id="notice"><%= notice %></p>
-
 
 <table class="container">
   <tbody>
 
     <div id="content">
-    <h1 class="container my-5 py-5">Tweets sobre #coronavirus</h1>
-        <% @tweets.each do |tweet| %>
-          <tr>
-            <td class="my-3"><%= tweet.user.screen_name %></td>
-            <td><%= tweet.text %></td>                         
-          </tr>
-        <% end %>
+      <h1 class="container my-5 py-5">Tweets sobre #coronavirus</h1>
+          <% @tweets.each do |tweet| %>
+            <tr>
+              <td class="my-3"><%= tweet.user.screen_name %></td>
+              <td><%= tweet.text %></td>                         
+            </tr>
+          <% end %>
     
     </div>
-    <div id="content2"> </div>
-    
+   
   </tbody>
 </table>
+    
 
 

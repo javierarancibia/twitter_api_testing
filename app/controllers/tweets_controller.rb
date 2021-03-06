@@ -6,23 +6,18 @@ class TweetsController < ApplicationController
   def index
     
     client = Twitter::REST::Client.new do |config|
-      config.consumer_key        = "4EXgkUAnATyGrv0pqLdSIQ9Ev"
-      config.consumer_secret     = "hytsneSdUB7WkG89I0dwo9YD3qeWwSKvZENiTcCldU7B7D6bCq"
-      config.access_token        = "AAAAAAAAAAAAAAAAAAAAAIWENQEAAAAAryE4E9Sjvjq%2FQ788q%2BIEugSRqrY%3D6BHx8nXPxEyhejS2MuttGmQQaD92FGkgISReSIHdNwmlIpMLeU"
-      # config.access_token_secret = "AAAAAAAAAAAAAAAAAAAAAIWENQEAAAAAryE4E9Sjvjq%2FQ788q%2BIEugSRqrY%3D6BHx8nXPxEyhejS2MuttGmQQaD92FGkgISReSIHdNwmlIpMLeU"
+      config.consumer_key        = "YOUR_CONSUMER_KEY"
+      config.consumer_secret     = "YOUR_CONSUMER_SECRET"
+      config.access_token        = "YOUR_ACCESS_TOKEN"
     end
     
-    @tweets = client.search('#coronavirus').take(50)
+    @tweets = client.search('#coronavirus').take(5)
     
     
     respond_to do |format|
       format.html {}
       format.js {@tweets}
     end
-
-    
-
-
   end
 
   # GET /tweets/1 or /tweets/1.json
