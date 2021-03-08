@@ -1,24 +1,12 @@
-# README
+# Panel en tiempo real - Tweets sobre #coronavirus. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Link a Heroku: https://sleepy-ravine-23803.herokuapp.com/
 
-Things you may want to cover:
+### Recursos:
 
-* Ruby version
+* [Bootstrap](https://getbootstrap.com) - Framework CSS
+* [JQuery](https://jquery.com) - Libreria JS
+* [Ruby on Rails](https://rubyonrails.org) - Framework FullStack 
+* [Yarn](https://yarnpkg.com/) - Gestor de Dependencias
+* [Twitter](https://github.com/sferik/twitter) - Twitter Gem
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
