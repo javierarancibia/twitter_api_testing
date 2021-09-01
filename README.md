@@ -10,3 +10,6 @@
 * [Yarn](https://yarnpkg.com/) - Gestor de Dependencias
 * [Twitter](https://github.com/sferik/twitter) - Twitter Gem
 
+![calculadora](https://user-images.githubusercontent.com/69688629/131714834-2ae475a4-c31d-49ba-bb93-bf6127480c09.png)
+
+
